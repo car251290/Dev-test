@@ -1,6 +1,5 @@
 {
-  "users": 
-  [
+  "users": [
     {
       "_id": "5410953eb0e0c0ae25608277",
       "guid": "eab0324c-75ef-49a1-9c49-be2d68f50b96",
@@ -10,14 +9,14 @@
       "age": 30,
       "eyeColor": "blue",
       "name": {
-        "first": "Henderson",
+        "first": "Hendersos",
         "last": "Briggs"
       },
       "company": "GEEKNET",
       "email": "henderson.briggs@geeknet.net",
       "password": "23derd*334",
       "phone": "+1 (936) 451-3590",
-      "address": "121 National Drive, Cotopaxi, Michigan, 8240"
+      "address": "121National Drive, Cotopaxi, Michigan, 8240"
     },
     {
       "_id": "5410953eee9a5b30c3eea476",

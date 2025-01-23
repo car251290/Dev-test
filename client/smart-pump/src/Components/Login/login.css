@@ -1,0 +1,58 @@
+/* Styling the login container */
+.login-container {
+    height: 100vh;
+   display: flex;
+    padding: 20px;
+  }
+  
+ /* Styling the card */
+.login-card {
+  max-width: 400px;
+  width: 100%;
+  border-radius: 10px;
+  background: #0f85da;
+  border: none;
+}
+
+/* Input fields */
+.login-card .form-control {
+  border-radius: 5px;
+}
+
+/* Button styles */
+.login-card .btn-primary {
+  background-color: #9915eb;
+  border-color: #2575fc;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.login-card .btn-primary:hover {
+  background-color: #6a11cb;
+  transform: scale(1.05);
+}
+
+/* Reset password button styles */
+.login-card .btn-reset-password {
+  background-color: red;
+  border-color: red;
+  color: white;
+  margin-top: 10px;
+  padding: 10px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.login-card .btn-reset-password:hover {
+  background-color: darkred;
+  transform: scale(1.05);
+}
+
+/* Centered error message */
+.login-card p {
+  font-size: 0.9rem;
+}
+
+/* Bigger font for email and password labels */
+.login-card .form-label {
+  font-size: 1.1rem;
+  font-weight: bold;
+}

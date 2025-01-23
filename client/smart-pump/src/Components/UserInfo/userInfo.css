@@ -1,0 +1,110 @@
+/* General container styling */
+.user-info {
+  margin-top: 20px;
+}
+
+/* Card styles */
+.user-info .card {
+  max-width: 600px;
+  margin: 0 auto;
+  border-radius: 15px;
+  background: #f9f9f9;
+  border: none;
+  font-family: 'Arial', sans-serif; /* Consistent font */
+}
+
+/* Header styling */
+.user-info-header {
+  font-size: 28px;
+  color: #0f85da;
+  font-weight: bold;
+}
+
+/* Text styles */
+.user-info p {
+  font-size: 16px;
+  color: #555;
+  margin: 0;
+}
+
+.user-info .user-name {
+  font-size: 18px;
+  color: #333;
+}
+
+/* Balance section styling */
+.user-info .balance {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  background: #0f85da;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+/* Highlighted balance text */
+.user-info .balance-display p {
+  font-size: 18px;
+  color: #555;
+}
+
+.user-info .highlight-balance {
+  font-size: 22px;
+  font-weight: bold;
+  color: #0f85da;
+  background: #e3f2fd;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+/* Buttons styling */
+.user-info .btn {
+  font-size: 16px;
+  padding: 10px 20px;
+}
+
+.user-info .btn-primary {
+  background-color: #0f85da;
+  border-color: #0f85da;
+}
+
+.user-info .btn-primary:hover {
+  background-color: #0c6cbf;
+  border-color: #0c6cbf;
+}
+
+.user-info .btn-success {
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+.user-info .btn-success:hover {
+  background-color: #218838;
+  border-color: #218838;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Adjusted button styling */
+.user-info .btn {
+  font-size: 16px;
+  padding: 5px 15px; /* Reduced height and added space */
+  margin: 5px; /* Added space between buttons */
+}
