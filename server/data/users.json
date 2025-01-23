@@ -27,14 +27,14 @@
       "age": 30,
       "eyeColor": "brown",
       "name": {
-        "first": "Boyd",
-        "last": "Small"
+        "first": "Boy",
+        "last": "Smal"
       },
       "company": "ENDIPINE",
       "email": "boyd.small@endipine.biz",
       "password": "_4rhododfj",
       "phone": "+1 (814) 437-3837",
-      "address": "261 Willow Street, Whipholt, Louisiana, 2879"
+      "address": "26 Willow Street, Whipholt, Louisiana, 2879"
     },
     {
       "_id": "5410953ea3e25180277b2a40",
@@ -45,14 +45,14 @@
       "age": 33,
       "eyeColor": "green",
       "name": {
-        "first": "Lott",
-        "last": "Kramer"
+        "first": "Lot",
+        "last": "Krame"
       },
       "company": "POSHOME",
       "email": "lott.kramer@poshome.us",
       "password": "34oii+345",
       "phone": "+1 (983) 565-2711",
-      "address": "743 Ryder Avenue, Marenisco, South Dakota, 4752"
+      "address": "74 Ryder Avenue, Marenisco, South Dakota, 4752"
     },
     {
       "_id": "5410953eada96439866e0a30",

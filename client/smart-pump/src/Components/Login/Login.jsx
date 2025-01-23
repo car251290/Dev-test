@@ -3,11 +3,13 @@ import axios from 'axios';
 import "bootstrap/dist/css/bootstrap.min.css"; 
 import './login.css'; 
 import logo from '../../img/logo.png';
+import { useAuth } from '../../context/AuthContext';
 
-const Login = ({ setUser, setToken, fetchUserDetails }) => {
+const Login = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [message, setMessage] = useState('');
+  const { setUser, setToken, fetchUserDetails } = useAuth();
 
   const handleLogin = async (e) => {
     e.preventDefault();
@@ -26,7 +28,7 @@ const Login = ({ setUser, setToken, fetchUserDetails }) => {
     <div className="login-container d-flex justify-content-center align-items-center">
       <div className="card login-card shadow-lg p-4">
         <img src={logo} alt="Logo" className="logo mb-4" />
-        <h1 className="text-center mb-4">Login:</h1>
+        <h1 className="text-center mb-4">Login</h1>
         <form onSubmit={handleLogin}>
           <div className="mb-3">
             <label htmlFor="email" className="form-label">

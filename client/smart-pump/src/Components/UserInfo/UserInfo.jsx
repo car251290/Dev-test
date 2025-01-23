@@ -1,9 +1,10 @@
-import React, { useState } from 'react';
+import React,{useState} from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './userInfo.css';
-import axios from 'axios';
+import { useAuth } from '../../context/AuthContext';
 
-function UserInfo({ user, handleUpdateDetails, setUser, checkBalance, message }) {
+function UserInfo({ message }) {
+  const { user, handleUpdateDetails, checkBalance,setUser} = useAuth();
   const [password, setPassword] = useState('');
   const [showModal, setShowModal] = useState(false);
 
@@ -21,7 +22,6 @@ function UserInfo({ user, handleUpdateDetails, setUser, checkBalance, message })
     setShowModal(false);
     checkBalance(password);
   };
-
   return (
     <div className="container user-info">
       <div className="card shadow-lg p-4">
@@ -107,6 +107,7 @@ function UserInfo({ user, handleUpdateDetails, setUser, checkBalance, message })
       </div>
     </div>
   );
+ 
 }
 
 export default UserInfo;
